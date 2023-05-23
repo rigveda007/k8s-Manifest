@@ -1,0 +1,5 @@
+# Command to run an EKS Cluster
+
+eksctl create cluster -r us-east-2 --name blurrey-cluster01 --version 1.24 --nodegroup-name blurrey-workers01 --node-type t2.medium --nodes 2 --nodes-min 1 --nodes-max 3 --vpc-public-subnets=subnet-04c9832f31ce698a4,subnet-0de36ab277ce527a8
+
+
