@@ -1,0 +1,15 @@
+eksctl get cluster
+kubectl get nodes
+
+kubectl get pods
+kubectl run <pod_name> --image <img_name>
+kubectl exec -it <pod_name> -- /bin/bash
+kubectl delete <pod_name>
+
+kubectl get deployment
+kubectl create deployment ht-deploy --image nginx
+kubectl delete deployment <deployment_name>
+
+
+kubectl apply -f <pod.yaml>
+kubectl delete -f <pod.yaml>
